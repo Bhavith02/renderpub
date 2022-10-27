@@ -1,6 +1,6 @@
 // DO NOT FORGET TO CHANGE THIS VAR TO "prod" BEFORE DEPLOYING
-const environment = 'dev';
-export const cdnPath = (environment === 'dev') ? '/spaces/' : '/api/storage/download?file=';
+const environment = 'prod';
+export const cdnPath = (environment === 'prod') ? '/spaces/' : '/api/storage/download?file=';
 
 
 export const defaults = {
