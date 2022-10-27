@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L24 0L24 21L0 21L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Group-51">
+    <path d="M0 0L32 0L32 32L0 32L0 0Z" id="Rectangle-12" fill="#000000" fill-rule="evenodd" stroke="none" />
+    <g id="RenderpubMainLogo-5" transform="translate(4 6)">
+      <path d="M0 0L24 0L24 21L0 21L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+      <g clip-path="url(#mask_1)">
+        <g id="layer1">
+          <path d="M0 0L19 0C22 0 24 2 24 5.00002C23.9992 7.26251 23.9998 9.23751 24 11.5C24 12.9665 23.5221 14.194 22.6831 15.0658L24 16L24 21L12 12.5L1.44178e-05 21L1.44178e-05 16L1.44178e-05 5.00002L0 0ZM5.00012 11.5002L6.35512 11.5005L12.0001 7.50047L17.6451 11.5005L19.0001 11.5005L19.0001 5.00049L5.00012 5.00049L5.00012 11.5002Z" id="Vector-Union-2" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="12.7mm"
+   height="11.1125mm"
+   viewBox="0 0 12.7 11.1125"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="RenderpubMainLogo.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview855"
+     showgrid="false"
+     inkscape:zoom="10.119047"
+     inkscape:cx="15.060883"
+     inkscape:cy="24.893658"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-84.666667,-149.48958)">
+    <path
+       d="m 84.666667,149.48958 h 10.054166 c 1.5875,0 2.645834,1.05834 2.645834,2.64584 -4.29e-4,1.19724 -1.33e-4,2.24234 0,3.43958 0,0.77602 -0.252894,1.42559 -0.696872,1.8869 l 0.696872,0.49435 v 2.64583 l -6.35,-4.49791 -6.35,4.49791 v -2.64583 -5.82083 z m 2.645833,6.08529 0.717021,1.3e-4 2.987146,-2.11667 2.987145,2.11667 h 0.717021 v -3.43958 H 87.3125 Z"
+       id="Vector-Union-2"
+       fill="#000000"
+       fill-rule="evenodd"
+       stroke="none"
+       style="stroke-width:0.264583"
+       sodipodi:nodetypes="cscccccccccccccccccc" />
+  </g>
+</svg>

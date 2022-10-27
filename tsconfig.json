@@ -1,0 +1,74 @@
+{
+	"extends": "./.svelte-kit/tsconfig.json",
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"module": "es2022",
+		"target": "es2022",
+		"noImplicitAny": false,
+		/**
+			svelte-preprocess cannot figure out whether you have a value or a type, so tell TypeScript
+			to enforce using \`import type\` instead of \`import\` for Types.
+			*/
+		"importsNotUsedAsValues": "error",
+		"isolatedModules": true,
+		"resolveJsonModule": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		/**
+			To have warnings/errors of the Svelte compiler at the correct position,
+			enable source maps by default.
+			*/
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"importHelpers": true,
+		"baseUrl": ".",
+		"allowJs": true,
+		"checkJs": true,
+		"types": ["node", "node-fetch", "nprogress"],
+		"paths": {
+			"$lib":["src/lib"],
+			"$lib/*": ["src/lib/*"],
+			"$stores": ["src/stores/index.ts"],
+			"$stores/*": ["src/stores/*"],
+			"$core": ["src/lib/core/index.ts"],
+			"$core/*": ["src/lib/core/*"],
+			"$utils": ["src/lib/utils/index.ts"],
+			"$utils/*": ["src/lib/utils/*"],
+			"$shared": ["src/lib/shared/index.ts"],
+			"$shared/*": ["src/lib/shared/*"],
+			"$components": ["src/lib/shared/components/index.ts"],
+			"$components/*": ["src/lib/shared/components/*"],
+			"$ui": ["src/lib/shared/ui/index.ts"],
+			"$ui/*": ["src/lib/shared/ui/*"],
+			"$models": ["src/lib/models/index.ts"],
+			"$models/*": ["src/lib/models/*"],
+			"$data": ["src/lib/data/index.ts"],
+			"$data/*": ["src/lib/data/*"],
+			"$environment/*": ["src/environments/*"]
+		}
+	},
+	"include": [
+		"*.d.ts",
+		"src/**/*.d.ts",
+		"src/**/*.js",
+		"src/**/*.ts",
+		"src/**/*.svelte",
+		"src/**/*.d.ts",
+		"src/*.d.ts",
+		"src/**/**/**/*.ts"
+	],
+	"exclude": [
+		"node_modules/*",
+		"dist/*",
+		".svelte/*",
+		".svelte-kit/*",
+		"build/*",
+		"coverage/*",
+		"functions/*",
+		"static/*",
+		"scripts/*"
+	]
+}

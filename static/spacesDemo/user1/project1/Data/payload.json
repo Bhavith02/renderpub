@@ -1,0 +1,62 @@
+{
+	"playerVersion": "",
+	"name": "VR_Images",
+	"shortdescription": "",
+	"description": "",
+	"initialAngle": -90,
+	"sceneUnits": "Centimeters",
+	"initialScene": 0,
+	"scenes": [
+		{
+			"name": "Walk0",
+			"modelPath": "user1/project1/Data/WorldMesh.glb",
+			"size": 0,
+			"initialView": "Hotspot0",
+			"path": "user1/project1/Walk0/",
+			"viewpoints": [
+				{
+					"name": "Hotspot0",
+					"location": [ 243.04454040527344, 1.2660369873046875, -221.491180419921875 ]
+				},
+				{
+					"name": "Hotspot1",
+					"location": [ 241.73272705078125, 1.880889892578125, -99.12017822265625 ]
+				},
+				{
+					"name": "Hotspot2",
+					"location": [ -18.915634155273438, 1.2112503051757812, -124.673294067382812 ]
+				},
+				{
+					"name": "Hotspot3",
+					"location": [ -113.77812194824219, 1.7756500244140625, -309.10629272460938 ]
+				},
+				{
+					"name": "Hotspot4",
+					"location": [ -49.039947509765625, 1.2022705078125, 67.34162902832031 ]
+				},
+				{
+					"name": "Hotspot5",
+					"location": [ -220.588134765625, 1.2243499755859375, 3.20521545410156 ]
+				},
+				{
+					"name": "Hotspot6",
+					"location": [ -73.419120788574219, 1.2023544311523438, 347.776123046875 ]
+				},
+				{
+					"name": "Hotspot7",
+					"location": [ -41.568122863769531, 1.2281951904296875, 174.45877075195312 ]
+				},
+				{
+					"name": "Hotspot8",
+					"location": [ 197.48077392578125, 1.427001953125, 332.58392333984375 ]
+				},
+				{
+					"name": "Hotspot9",
+					"location": [ 177.8377685546875, 1.183258056640625, 183.8878173828125 ]
+				}
+				
+			],
+			"tags": []
+		}
+	]
+}

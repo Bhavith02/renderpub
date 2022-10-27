@@ -1,0 +1,2 @@
+inside hello layout 
+<slot/>
